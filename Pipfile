@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# 機械学習用
+sklearn = "*"
+pandas = "*"
+ipykernel = "*"
+japanize-matplotlib = "*"
+tqdm = "*"
+ipywidgets = "*"
+pillow = "*"
+# スクレイピング用
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
