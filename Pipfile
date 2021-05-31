@@ -16,6 +16,7 @@ pillow = "*"
 requests = "*"
 beautifulsoup4 = "*"
 lxml = "*"
+seaborn = "*"
 
 [dev-packages]
 autopep8 = "*"
